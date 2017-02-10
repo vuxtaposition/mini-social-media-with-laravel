@@ -89,7 +89,7 @@ echo "Hello ".ucfirst(Auth::user()->username);
                 <div class="links">
                     <a href="/posts">Posts</a>
                     <a href="/allusers">Users</a>
-                    <a href="https://laravel-news.com">News</a>
+                    <a href="/articles/create">Articles</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>

@@ -22,6 +22,10 @@ class User extends Authenticatable
       return $this->hasMany('App\Post');
     }
 
+    public function articles(){
+      return $this->hasMany('App\Articles');
+    }
+
 //mutators
     public function setNameAttribute($value)
     {
